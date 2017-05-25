@@ -1,0 +1,67 @@
+body {
+	background-color: #222424;
+	color: white;
+}
+nav {
+	background-color: #000000;
+}
+nav a {
+	color: #FFC900;
+}
+nav a:hover {
+	color: #FFA600;
+}
+nav img {
+	margin: 8px;
+}
+header h1 {
+	font-size: 1.8em;
+}
+header {
+	background-repeat: no-repeat;
+	box-shadow: 0px 6px 4px black;
+	overflow: hidden;
+}
+.carousel {
+	position: relative;
+}
+.logoBanana {
+	position: absolute;
+	top: 0px;
+	left: 42%
+}
+aside img {
+	border: 3px solid black;
+}
+article a {
+	color: #CF422B;
+}
+article a:hover {
+	color: #FFA600;
+}
+.dev-pictures {
+	border-radius: 10px;
+}
+.redirect {
+	font-size: 1.5em;
+	color: #FFC900;
+}
+.redirect:hover {
+	color: #FFA600;
+}
+
+footer {
+	background-color: #000000;
+	margin-top: 50px;
+}
+footer p {
+	color: #FFC900;
+}
+footer {
+	height: 75px;
+}
+@media (min-width: 768px) {
+	header {
+	height: 500px;
+	}
+}

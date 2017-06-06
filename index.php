@@ -4,60 +4,48 @@
 <!--Part specific to this page-->
 <section>
   <div class="row">
-    <aside class="col-md-2">
-      </br>
-      <img src="https://panel.verygames.net/viewer/banner/11919?prod=rust&v=14&lang=fr&font=1" alt="banner" class="center-block hidden-xs">
+    <aside class="col-sm-2">
+      <p class="banner hidden-sm text-center">Ip du nouveau serveur :<br>94.23.205.157:28315</p>
     </aside>
-  <article class="col-md-8">
-      </br>
-      <img src="pictures/rust-transparent.png" alt="rust_logo" class="center-block">
+  <article class="col-md-8 col-xs-12">
+      <img src="pictures/rust-transparent.png" alt="rust_logo" class="center-block logo hidden-xs">
       <h2 class="text-center">Quoi de neuf sur Rust papa ?</h2>
         <div class="row">
 
-        <div class="col-md-offset-1 col-md-10">
-            </br>
-            <h3><a href="http://playrust.com/devblog-160/">Devblog 160</a></h3>
-            <p>Posté le 18 Mai 2017 par Craig Pearson</p>
-            <img src="pictures/160.png" class="hidden-xs dev-pictures" alt="devblog_picture">
-            <p>Pieges fusils à pompe, optimisations et plus encore.
-            </p>
-            <!--<a href="http://france-rust.fr/maj/rust-devblog-160/" class="redirect">Lire en français sur le site de France Rust ! Merci à eux pour la traduction.</a>-->
-            <a href="#" class="redirect">La traduction française n'est pas encore disponible ! un peu de patience...</a>
-          </div>
-
-         <div class="col-md-offset-1 col-md-10">
-            </br>
-            <h3><a href="http://playrust.com/devblog-159/">Devblog 159</a></h3>
-            <p>Posté le 11 Mai 2017 par Craig Pearson</p>
-            <img src="pictures/159.png" class="hidden-xs dev-pictures" alt="devblog_picture">
-            <p>Vous avez une boite aux lettres ! Les lances sont améliorées, les arbalètes équilibrées et le site de lancement prend forme.
-            </p>
-            <a href="http://france-rust.fr/maj/rust-devblog-159/" class="redirect">Lire en français sur le site de France Rust ! Merci à eux pour la traduction.</a>
-            <!--<a href="#" class="redirect">La traduction française n'est pas encore disponible ! un peu de patience...</a>-->
-          </div>
-
-          <div class="col-md-offset-1 col-md-10">
-            </br>
-            <h3><a href="http://playrust.com/devblog-158/">Devblog 158</a></h3>
-            <p>Posté le 4 Mai 2017 par Craig Pearson</p>
-            <img src="pictures/158.png" class="hidden-xs dev-pictures" alt="devblog_picture">
-            <p>Voici une mise à jour qui va changer le jeu : la plupart des composants peuvent êtres craftés dans la table de recherche<br/> avec de la ferraile,
-            le premier niveau de construction et les echelles ignorent désormais les restrictions d'armoire pour aider<br/> les raids, les serveurs sont wipe. Bon jeu !
-            </p>
-            <a href="http://france-rust.fr/maj/rust-devblog-158/" class="redirect">Lire en français sur le site de France Rust ! Merci à eux pour la traduction.</a>
-            <!--<a href="#" class="redirect">La traduction française n'est pas encore disponible ! un peu de patience...</a>-->
-          </div>
-
-        <div class="col-md-offset-1 col-md-10">
-            </br>
-            <h3><a href="http://playrust.com/devblog-157/">Devblog 157</a></h3>
-            <p>Posté le 27 Avril 2017 par Craig Pearson</p>
-            <img src="pictures/157.png" class="hidden-xs dev-pictures" alt="devblog_picture">
-            <p>Equilibrage du pistolet Eoka, meilleure I.A. et plus encore.
-            </p>
-            <a href="http://france-rust.fr/maj/rust-devblog-157/" class="redirect">Lire en français sur le site de France Rust ! Merci à eux pour la traduction.</a>
-            <!--<a href="#" class="redirect">La traduction française n'est pas encore disponible ! un peu de patience...</a>-->
-        </div>
+<!-- devblog zone .....................................................................................................................devblog zone-->
+	        <div class="col-md-offset-1 col-md-10">
+	            <h3><a href="http://rust.facepunch.com/blog/">Blog des devellopeurs du jeu</a></h3>
+	            <p>Les comptes rendu des mises à jour et un apreçu des créations de la communautée</p>
+	            <a href="http://rust.facepunch.com/blog/" class="hidden-xs"><img src="pictures/classic.png" class="hidden-xs dev-pictures" alt="devblog_picture"></a>
+	            <p>Les mises à jour sortent chaque jeudi soir, les plugins sont généralement fonctionnel au plus tard le lendemain matin</p>
+	            <p><a href="http://france-rust.fr/category/maj/" class="redirect">Le site de France Rust propose les devblogs en français !<br>
+	            Merci à eux pour la traduction (un peu de délai généralement).</a></p>
+	        </div>
+<!-- raid zone ......................................................................................................................... raid zone-->
+	        <div class="col-md-offset-1 col-md-10">
+	            <h3><a href="raidfr.php">Guide de Survie Elementaire</a></h3>
+	            <p>Le 31 Mai 2017 par Ultralapin</p>
+	            <a href="raidfr.php" class="hidden-xs"><img src="pictures/raid.png" class="hidden-xs dev-pictures" alt="devblog_picture"></a>
+	            <p>Vous venez d'arriver sur Rust et vous ne savez pas vous protegez ?<br>
+	            Vous êtes la depuis longtemps mais vous vivez dans l'angoisse de l'envahisseur ?<br>
+	            Vous voulez vivre en autarcie et tirer sur les égarés qui passent près de chez vous ? Et bien allons y gaiement !</p>
+	        </div>
+<!-- rustafied zone ................................................................................................................rustafied zone-->
+	        <div class="col-md-offset-1 col-md-10">
+	            <h3><a href="http://www.rustafied.com/">Le site Rustafied</a></h3>
+	            <p>Site non officiel sur Rust</p>
+	            <a href="http://www.rustafied.com/" class="hidden-xs"><img src="pictures/anotherGun.png" class="hidden-xs dev-pictures" alt="devblog_picture"></a>
+	            <p>Dévoile en partie les devblogs en avance ainsi que plusieurs articles bien faits (en anglais)</p>
+	        </div>
+<!-- Veys zone ................................................................................................................Veys zone-->
+          	<div class="col-md-offset-1 col-md-10">
+              	<h3><a href="https://www.rustaforum.com/profile/14535-veys/">Artworks de Veys</a></h3>
+              	<p>Veys est l'artiste derrière les artworks du caroussel.<br>
+              	Si vous aimez son travail vous pouvez en voir plus sur rustafied ou le Steam workshop</p>
+             	<a href="https://www.rustaforum.com/profile/14535-veys/" class="hidden-xs"><img src="pictures/veys.png" class="hidden-xs dev-pictures" alt="veys_picture"></a>
+             	<p><a href="http://steamcommunity.com/id/veyskara/">Workshop de Veys</a></p>
+             	<p><a href="https://www.artstation.com/artist/veyselkara">Site de Veys</a></p>
+          	</div>
 
         </div>
     </article>

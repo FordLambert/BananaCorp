@@ -30,6 +30,12 @@ header {
 	top: 0px;
 	left: 42%
 }
+.banner, .logo {
+	margin-top: 20px;
+}
+.banner {
+	color: #FFC900;
+}
 aside img {
 	border: 3px solid black;
 }
@@ -38,6 +44,9 @@ article a {
 }
 article a:hover {
 	color: #FFA600;
+}
+h3 {
+	margin-top: 45px;
 }
 .dev-pictures {
 	border-radius: 10px;
@@ -49,19 +58,20 @@ article a:hover {
 .redirect:hover {
 	color: #FFA600;
 }
-
 footer {
 	background-color: #000000;
+	margin-top: 50px;
+	height: 150px;
 	margin-top: 50px;
 }
 footer p {
 	color: #FFC900;
 }
-footer {
-	height: 75px;
-}
 @media (min-width: 768px) {
 	header {
 	height: 500px;
 	}
+}
+nav {
+	position: relative;
 }

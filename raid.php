@@ -8,9 +8,15 @@
     </aside>
   <article class="col-md-8 col-xs-12">
       <img src="pictures/rust-transparent.png" alt="rust_logo" class="center-block logo hidden-xs">
-      <h2 class="text-center">Server's map</h2>
+      <h2 class="text-center">Not finish guys ! Come back later !</h2>
         <div class="row">
-          <img src="pictures/map.png" alt="map" class="col-xs-12">
+          <ul class="col-xs-12">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
     </article>
   </div>

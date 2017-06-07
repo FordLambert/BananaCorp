@@ -29,10 +29,10 @@
             </nav>
             <div class="carousel slide hidden-xs " data-ride="carousel" id="carousel">
               <div class="carousel-inner">
-                <div class="item active"><img src="pictures/carou1.png" alt="image_rust"></div>
-                <div class="item"><img src="pictures/carou3.png" alt="image_rust"></div>
-                <div class="item"><img src="pictures/carou2.png" alt="image_rust"></div>
-                <div class="item"><img src="pictures/carou4.png" alt="image_rust"></div>
+                <div class="item active"><img src="pictures/carou1.jpg" alt="image_rust"></div>
+                <div class="item"><img src="pictures/carou3.jpg" alt="image_rust"></div>
+                <div class="item"><img src="pictures/carou2.jpg" alt="image_rust"></div>
+                <div class="item"><img src="pictures/carou4.jpg" alt="image_rust"></div>
             </div>
             <img src="pictures/banana.png" alt="logo" class="block logoBanana">
             </div>
